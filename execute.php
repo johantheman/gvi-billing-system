@@ -29,3 +29,15 @@ $mailing_array = explode("<Mailing>", $xml);
 //var_dump($mailing_array);
 
 //I can either create a fuction to add all the mailing to the database not sure yet
+
+function getTextBetweenTags($string, $tagname)
+{
+    $pattern = "/<$tagname>(.*?)<\/$tagname>/";
+    preg_match($pattern, $string, $matches);
+    $var = str_replace('<![CDATA[', '', $matches[1]);
+    $var = str_replace(']]','',$var);
+    $var = str_replace('>','',$var);
+    return $var;
+}
+
+//Now that i have the text between the tags I can insert loop and insert it
