@@ -35,7 +35,7 @@ class ReportingApi {
 
     function apiPost($xml_post){
         $header = array(
-            'Content-Type:text/xml;charset=UTF-8','Authorization: Bearer ai3dKo7y6H4SEUKsaGgJUOAJCEngs6vSTzTS0LrDvK_0S1'//.$this->accessToken
+            'Content-Type:text/xml;charset=UTF-8','Authorization: Bearer '.$this->accessToken
         );
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, 'https://api1.silverpop.com/XMLAPI');
@@ -46,9 +46,9 @@ class ReportingApi {
         $result = curl_exec($ch);
         //$json_result = json_decode($result); removed json result
         //var_dump($json_result);
-        $xml_response = @simplexml_load_string('<?xml version="1.0"?>' . $result); //added xml response
+        $xml_response = simplexml_load_string($result); //added xml response
         //var_dump($xml_response);
-        $this->response = $xml_response;
+        $this->response = $result;
         curl_close($ch);
 
     }

@@ -6,8 +6,11 @@
  * Time: 11:50 AM
  */
 
+//include the api and tokens
 require 'api.php';
 include 'credentials.php';
+
+//Setting up the api with the correct parameters
 $ins = new ReportingApi($cid, $cs, $rt);
 $start = date("m/d/Y",strtotime("-1 day"));
 $end = date("m/d/Y");
@@ -18,5 +21,11 @@ $xml = "<Envelope><Body>
 <!-- optional element <MAILING_COUNT_ONLY/>-->
 </GetSentMailingsForUser>
 </Body></Envelope>";
+
+//Obtaining the response from the api
 $ins->apiPost($xml);
-var_dump($ins->response);
+$xml = $ins->response;
+$mailing_array = explode("<Mailing>", $xml);
+//var_dump($mailing_array);
+
+//I can either create a fuction to add all the mailing to the database not sure yet
