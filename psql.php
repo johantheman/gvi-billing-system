@@ -14,12 +14,9 @@ if(pg_connect($conn_string)){
     echo "PGSQL there was an issue connecting <br>";
 }
 
-$result = pg_query($dbconn, "select * from users");
-if(!$result){
-    echo "there was an issue with the SQL <br>";
-} else {
-    while ($row = pg_fetch_row($result)) {
-        echo "Name: $row[0]  E-mail: $row[1] Org: $row[2] Pod: $row[3] BillingId: $row[4] IsActive: $row[5] SendTotal: $row[6] <br>";
-    }
-}
+$MailingId = "123";
+$Reportid = "122122122";
+
+$result = pg_query($dbconn, "INSERT INTO mailings VALUES($MailingId,$Reportid,' ',' ',' ',' ',' ',' ', ' ',' ',' ',' ',' ')");
+
 

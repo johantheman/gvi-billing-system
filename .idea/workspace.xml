@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68b3aee2-16e8-4b01-b04c-b51b3672a376" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/execute.php" afterPath="$PROJECT_DIR$/execute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psql.php" afterPath="$PROJECT_DIR$/psql.php" />
     </list>
     <ignored path="gvi-billing-system.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +41,8 @@
       <file leaf-file-name="credentials.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/credentials.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -52,12 +52,25 @@
         <entry file="file://$PROJECT_DIR$/execute.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="558">
-              <caret line="42" column="75" lean-forward="false" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1549141172733" expanded="true" signature="339:538" ph="..." />
-                <marker date="1549141172733" expanded="true" signature="345:527" ph="..." />
-                <marker date="1549141172733" expanded="true" signature="370:519" ph="..." />
+                <marker date="1549269561598" expanded="true" signature="364:563" ph="..." />
+                <marker date="1549269561598" expanded="true" signature="370:552" ph="..." />
+                <marker date="1549269561598" expanded="true" signature="395:544" ph="..." />
+                <marker date="1549269561598" expanded="true" signature="2269:2468" ph="INSERT INTO mailings... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#87#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,11 +79,12 @@
       <file leaf-file-name="psql.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/psql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
-                <marker date="1549134486181" expanded="true" signature="384:403" ph="select * fro... users" />
+                <marker date="1549148559038" expanded="true" signature="430:480" ph="INSERT INTO mailings... " />
+                <marker date="1549148559038" expanded="true" signature="430:524" ph="INSERT INTO mailings... " />
               </folding>
             </state>
           </provider>
@@ -79,8 +93,8 @@
       <file leaf-file-name="testing.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="525">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="54" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
               </folding>
@@ -97,9 +111,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/api.php" />
+        <option value="$PROJECT_DIR$/testing.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/psql.php" />
         <option value="$PROJECT_DIR$/credentials.php" />
-        <option value="$PROJECT_DIR$/testing.php" />
         <option value="$PROJECT_DIR$/execute.php" />
       </list>
     </option>
@@ -175,12 +190,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549014473193</updated>
-      <workItem from="1549115848525" duration="9841000" />
+      <workItem from="1549115848525" duration="22347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9841000" />
+    <option name="totallyTimeSpent" value="22347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -235,9 +250,10 @@
           <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="38" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1549141172733" expanded="true" signature="339:538" ph="..." />
-            <marker date="1549141172733" expanded="true" signature="345:527" ph="..." />
-            <marker date="1549141172733" expanded="true" signature="370:519" ph="..." />
+            <marker date="1549269561598" expanded="true" signature="364:563" ph="..." />
+            <marker date="1549269561598" expanded="true" signature="370:552" ph="..." />
+            <marker date="1549269561598" expanded="true" signature="395:544" ph="..." />
+            <marker date="1549269561598" expanded="true" signature="2269:2468" ph="INSERT INTO mailings... " />
           </folding>
         </state>
       </provider>
@@ -252,44 +268,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/credentials.php">
+    <entry file="file://$PROJECT_DIR$/testing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="525">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="54" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/psql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1549134486181" expanded="true" signature="384:403" ph="select * fro... users" />
+            <marker date="1549148559038" expanded="true" signature="430:480" ph="INSERT INTO mailings... " />
+            <marker date="1549148559038" expanded="true" signature="430:524" ph="INSERT INTO mailings... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.php">
+    <entry file="file://$PROJECT_DIR$/credentials.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/execute.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
-          <caret line="42" column="75" lean-forward="false" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1549141172733" expanded="true" signature="339:538" ph="..." />
-            <marker date="1549141172733" expanded="true" signature="345:527" ph="..." />
-            <marker date="1549141172733" expanded="true" signature="370:519" ph="..." />
+            <marker date="1549269561598" expanded="true" signature="364:563" ph="..." />
+            <marker date="1549269561598" expanded="true" signature="370:552" ph="..." />
+            <marker date="1549269561598" expanded="true" signature="395:544" ph="..." />
+            <marker date="1549269561598" expanded="true" signature="2269:2468" ph="INSERT INTO mailings... " />
           </folding>
         </state>
       </provider>
